@@ -1,0 +1,21 @@
+{
+  "name": "terraform-input-parser",
+  "version": "1.0.0",
+  "description": "parses the contents of a variables.tf file and constructs a javascript object representing it",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --config jest.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^15.14.0",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.3",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "@types/jest": "^26.0.23"
+  }
+}
